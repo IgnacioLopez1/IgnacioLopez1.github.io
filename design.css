@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+}
+body{
+    height: 80vh;
+    width: 100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.dark{
+    background-color: black;
+}
+
+@font-face {
+    font-family: letra ;
+    src: url(fuente/Poppins-Regular\ \(2\).ttf);
+}
+
+#logo{
+    letter-spacing: -2px;  
+   
+}
+
+span{
+    font-family: letra;
+    font-size: 90px;
+    font-weight: bold;
+
+}
+
+.azul{
+  color:#4186f4 ;
+}
+
+.primera{
+    font-size:116px;
+}
+.rojo{  
+    color: #ed4233;
+}
+
+.amarillo{  
+    color: #ffbe00; 
+}
+.verde{  
+    color: #36a755;
+}
+
+.buscador{
+    outline: none;
+    border: none;
+    height: 45px;
+    font-size: 14px;
+    margin-left: 13px;
+    background-color: transparent;
+    margin-left: 8px;
+   
+    
+   
+}
+
+.letraBlanca{
+    color: rgb(228, 226, 226)
+}
+
+.contenedor{  
+    width: 610px;
+    border: 1px solid rgb(204, 201, 201);
+    border-radius: 24px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: none;
+    color: #202124;
+    
+    
+}
+
+.contenedor:hover{
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+
+
+article{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.lupa{
+    margin-left: 17px;
+    margin-top: 17px;
+}
+
+.contenedor-botones1,.contenedor-botones2{
+    margin: 20px;
+    margin-top: 30px;
+    
+}
+
+.botones{
+    background-color: rgba(248,249,250,255);
+    color: rgb(62, 60, 60);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    
+}
+.botones:hover{
+    
+    border: 1px solid rgb(204, 201, 201);
+}
+
+.boton-luna{
+    background-color:  white;
+    border-radius: 6em;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 40px;
+    margin-left: 30%;
+    border-radius: 6em;
+    
+
+}
+
+.boton-luna:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.d{
+    background-color: #202122;
+    color: #afb5b4 ;
+   
+}
+
+.b-oscuro{
+    background-color: #111111;
+    border: 1px solid #2c2c2c;
+    
+
+}
